@@ -1,4 +1,4 @@
-# Docker Compose Fullstack App (Frontend + Backend)
+<img width="1369" alt="Screenshot 2025-04-05 at 16 38 16" src="https://github.com/user-attachments/assets/10417aba-590a-4879-b420-a300c4310380" /># Docker Compose Fullstack App (Frontend + Backend)
 This project demonstrates how to build and run a simple fullstack application using Docker and Docker Compose. It includes:
 
 - A dynamic frontend (HTML/CSS/JS) served by NGINX
@@ -239,9 +239,38 @@ services:
 ### **Step 2️: Run Docker Compose**
 From project root:
 
+
 ```
 docker-compose up --build
 ```
 
 <img width="1372" alt="Screenshot 2025-04-05 at 14 46 34" src="https://github.com/user-attachments/assets/11980403-7ade-4538-896f-4913c2f3abb3" />
+
+<img width="1369" alt="Screenshot 2025-04-05 at 16 38 16" src="https://github.com/user-attachments/assets/6e58a84c-13d2-4699-b73d-d6628dd89433" />
+
+Everything spins up!
+Visit 👉 
+```
+http://localhost
+```
+The landing page should now fetch and display a message from the backend.
+
+### **Step 3️: Stopping the Project**
+
+```
+docker-compose down
+```
+
+<img width="1389" alt="Screenshot 2025-04-05 at 16 41 46" src="https://github.com/user-attachments/assets/e5ce10d3-a1ef-4169-a052-45185ef9c56e" />
+
+This stops and removes the containers created by Compose.
+
+## Conclusion
+We successfully built a fullstack application using Docker Compose!
+
+- Frontend (NGINX + HTML/CSS/JS)
+
+- Backend (Node.js API)
+
+- Managed and launched via Docker Compose
 
