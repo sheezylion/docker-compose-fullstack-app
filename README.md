@@ -1,4 +1,4 @@
-<img width="1369" alt="Screenshot 2025-04-05 at 16 38 16" src="https://github.com/user-attachments/assets/10417aba-590a-4879-b420-a300c4310380" /># Docker Compose Fullstack App (Frontend + Backend)
+# Docker Compose Fullstack App (Frontend + Backend)
 This project demonstrates how to build and run a simple fullstack application using Docker and Docker Compose. It includes:
 
 - A dynamic frontend (HTML/CSS/JS) served by NGINX
